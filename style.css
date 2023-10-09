@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(aqua, #a45151);
+}
+
+.main {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.main__item {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.main__photo img {
+  max-width: 30vw;
+}
+.main__best-track {
+  display: flex;
+  flex-direction: column;
+}
+
+.author {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.author__photo {
+  display: flex;
+  justify-content: center;
+}
+.author__photo img {
+  max-width: 90%;
+}
+.author label {
+  font-size: 1.8rem;
+}
+.author__video {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  color: darkred;
+  text-shadow: black 1px 1px 5px;
+  text-decoration: black underline;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: linear-gradient(aqua, #a45151);
+}
+
+.main {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  &__item{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  &__photo{
+    img{
+      max-width: 30vw;
+    }
+  }
+
+  &__best-track{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.author{
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  &__name{
+
+  }
+
+  &__photo{
+    display: flex;
+    justify-content: center;
+
+    img{
+      max-width: 90%
+    }
+  }
+
+  label{
+    font-size: 1.8rem;
+  }
+
+  &__tracks{
+
+  }
+
+  &__concerts{
+
+  }
+
+  &__video{
+    display: flex;
+    justify-content: center;
+  }
+}
+
+h1{
+  color: darkred;
+  text-shadow: black 1px 1px 5px;
+  text-decoration: black underline;
+}
